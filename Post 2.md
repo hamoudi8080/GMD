@@ -10,6 +10,9 @@
 
 ### Project Scope
 
+#### Game implementation
+- The game will be developed by using unity and writing scripts by using visual studio 2022.
+
 #### Milestone 1 (March/18):
 
 - Downloading assets and 3D models for environment and characters
