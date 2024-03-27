@@ -77,10 +77,6 @@
 - Design a park environment with interactive elements and obstacles.
 - Create an immersive atmosphere with detailed textures and environmental effects.
 
-#### Story:
-
-- Develop a narrative surrounding the ninja's mission and motivations.
-- Incorporate storytelling elements through in-game events and dialogue.
 
 #### Characters:
 
@@ -93,6 +89,14 @@
 
 - Compose a soundtrack to enhance mood and atmosphere.
 - Provide dynamic music cues for different gameplay situations.
+
+### Improvments
+
+#### Environment.
+#### updating code. 
+#### new enemy animation. 
+#### more enemy across Environment.
+
 
 ### Final Submission
 
