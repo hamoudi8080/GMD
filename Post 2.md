@@ -24,7 +24,8 @@
 
 - Develop combat system for the main character.
 - Implement enemy AI for engaging encounters.
-- implement the health system.
+- Implement the health system.
+- Sounds Effect.
 
 #### Milestone 3 (April/15):
 
