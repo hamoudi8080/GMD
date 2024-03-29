@@ -24,6 +24,7 @@
 
 - Develop combat system for the main character.
 - Implement enemy AI for engaging encounters.
+- implement the health system.
 
 #### Milestone 3 (April/15):
 
