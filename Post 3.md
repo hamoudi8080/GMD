@@ -24,17 +24,20 @@ Scripts for player movement direction and jumping have been implemented, along w
 In Animation figure (1), the Blend tree is a combination of three states: idle, walk, and sprint. The value between these three states is represented between 0, 0.5, 1. 0 is standing, 0.5 is walking, and 1 is sprinting.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/5f56fefd-98f2-465c-9570-ac1671318504)
+
 Animation figure (1)
 
 This script manipulates between 0, 0.5, 1. When it is walking it returns 0.5, when it is walking, and the left-shift button is clicked it returns 1 which is sprinting.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/ee2006e2-4580-404b-8920-9a8498aaac2e)
+
 Animation figure (1-script)
 
 In Animation figure (1)
 We have three parameters which are representing our animation states. Speed we already mentioned in Animation figure (1), Attack is a trigger so when the left mouse clicked it goes into NormalAttack01_SwordShield transaction which hits the sword.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/f4ca79ed-14dd-4188-8d91-afe1625347d9)
+
 Animation figure (2)
 
 
@@ -43,6 +46,7 @@ We added an event to our animation so that when the animation reaches a point, w
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/d42746bd-19fb-42f5-835e-bd4738950150)
 
 Animation figure (3).
+
 We print for now just "player attack".
 
 ## Milestone Completion
