@@ -20,7 +20,7 @@ Scripts for player movement direction and jumping have been implemented, along w
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/46070b87-0f19-4cea-835e-ab3e4fa635cf)
 
 
-## Animation
+## Player(Ninja) Animation
 In Animation figure (1), the Blend tree is a combination of three states: idle, walk, and sprint. The value between these three states is represented between 0, 0.5, 1. 0 is standing, 0.5 is walking, and 1 is sprinting.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/5f56fefd-98f2-465c-9570-ac1671318504)
