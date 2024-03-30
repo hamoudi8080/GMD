@@ -17,6 +17,9 @@ The environment is integrated into the scene, serving as the battleground betwee
 ## Player Movement and Control
 Scripts for player movement direction and jumping have been implemented, along with additional camera movement code. This allows the player to move the character by hovering on a specific point on the screen while pressing the forward key, enhancing flexibility and ease of control for the user. Furthermore, a sprint feature has been added to the player, enabling increased movement speed when the left-shift key is pressed.
 
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/46070b87-0f19-4cea-835e-ab3e4fa635cf)
+
+
 ## Animation
 In Animation figure (1), the Blend tree is a combination of three states: idle, walk, and sprint. The value between these three states is represented between 0, 0.5, 1. 0 is standing, 0.5 is walking, and 1 is sprinting.
 
