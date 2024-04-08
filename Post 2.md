@@ -6,7 +6,7 @@
 
 ### Concept Statement
 
-*Ninja Assassin* is an action-packed game where players take on the role of a ninja navigating through a park, encountering AI enemies along the way. The objective is to engage in combat with these enemies, earning points for each successful kill.
+*Ninja Assassin* is an action-packed game where players take on the role of a ninja navigating through a park or city, encountering AI enemies along the way. The objective is to engage in combat with these enemies, earning points for each successful kill.
 
 ### Project Scope
 
