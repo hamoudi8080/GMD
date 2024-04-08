@@ -40,6 +40,7 @@
 #### Objectives:
 
 - Navigate through the park environment.
+- Navigate through the city environment.
 - Engage in combat with enemies encountered along the way.
 - Earn points for each successful kill.
 
