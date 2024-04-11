@@ -41,7 +41,7 @@ Three parameters have been added, which are representing our animation states. S
 Animation figure (2)
 
 
-We added an event to our animation so that when the animation reaches a point, we want something to happen, like sound Effects, or any other event. In our case, when the animation reaches the event point before sec 0:08 we execute.
+An event to our animation has also been added so that when the animation reaches a point, we want something to happen, like sound Effects, or any other event. In our case, when the animation reaches the event point before sec 0:08 we execute.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/d42746bd-19fb-42f5-835e-bd4738950150)
 
