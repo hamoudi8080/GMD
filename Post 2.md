@@ -71,7 +71,7 @@
 
 #### Physics:
 
-- Physics engine for character movement and interaction with the environment.
+- Physics for character movement and interaction with the environment.
 - Realistic collisions and interactions during combat sequences.
 
 ### Game Elements
