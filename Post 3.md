@@ -34,7 +34,7 @@ This script manipulates between 0, 0.5, 1. When it is walking it returns 0.5, wh
 Animation figure (1-script)
 
 In Animation figure (1)
-We have three parameters which are representing our animation states. Speed we already mentioned in Animation figure (1), Attack is a trigger so when the left mouse clicked it goes into NormalAttack01_SwordShield transaction which hits the sword.
+Three parameters have been added, which are representing our animation states. Speed we already mentioned in Animation figure (1), Attack is a trigger so when the left mouse clicked it goes into NormalAttack01_SwordShield transaction which hits the sword.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/f4ca79ed-14dd-4188-8d91-afe1625347d9)
 
