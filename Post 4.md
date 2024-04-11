@@ -15,9 +15,8 @@ We use the nav mesh agent component to calculate the distance between the enemy 
 
 First I pass my player position into Enemy controller script.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/4688c030-bbae-44b8-a061-0eb6677cbddf)
+<img width="1278" alt="image" src="https://github.com/hamoudi8080/GMD/assets/82207003/e68d8df9-7ca2-4ceb-ba82-95a419d8025a">
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/5518351b-3f0b-48c2-853b-cfd251ef4109)
 
 
 !Figure (1) Nav mesh Component and passing player position into Enemy controller
@@ -25,7 +24,8 @@ First I pass my player position into Enemy controller script.
 Now, with this script attached to the enemy object, find the distance between the player and the enemy object. If the distance is less than a specified radius,
 let the enemy follow the player using the Nav mesh component to catch and hit the player.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/3a22ec6c-00b2-4f1e-97f7-6e35b2a461a8)
+![Picture2](https://github.com/hamoudi8080/GMD/assets/82207003/9ba78957-9ff7-4256-a88d-cbc24155efcf)
+
 
 
 ## Animation
