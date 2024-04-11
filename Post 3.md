@@ -1,7 +1,7 @@
 # Game Development Progress
 
 ## Camera Functionality
-First of all, I set up the camera functionality. I integrated the Cinemachine package from the Unity Package Manager. This package plays a pivotal role in our game, enabling us to effortlessly track the player character with its advanced camera technology. Regardless of where the player moves within the game environment, Cinemachine ensures seamless camera follow, dynamically adjusting angles, positions, and perspectives to keep the player in focus. This not only enhances the player's immersion but also contributes to the overall cinematic experience of the game. An additional technique is that the camera will collide with some buildings so that when the user moves the mouse, it does not go inside the building.
+To start with game development, I set up the camera functionality. I integrated the Cinemachine package from the Unity Package Manager. This package plays a pivotal role in our game, enabling us to effortlessly track the player character with its advanced camera technology. Regardless of where the player moves within the game environment, Cinemachine ensures seamless camera follow, dynamically adjusting angles, positions, and perspectives to keep the player in focus. This not only enhances the player's immersion but also contributes to the overall cinematic experience of the game. An additional technique is that the camera will collide with some buildings so that when the user moves the mouse, it does not go inside the building.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/ae2074ef-9c80-42f7-b1f9-da2c45672683)
 
