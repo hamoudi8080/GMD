@@ -17,6 +17,9 @@ First I pass my player position into Enemy controller script.
 
 ![image](https://github.com/hamoudi8080/GMD/assets/82207003/4688c030-bbae-44b8-a061-0eb6677cbddf)
 
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/5518351b-3f0b-48c2-853b-cfd251ef4109)
+
+
 !Figure (1) Nav mesh Component and passing player position into Enemy controller
 
 Now, with this script attached to the enemy object, find the distance between the player and the enemy object. If the distance is less than a specified radius,
