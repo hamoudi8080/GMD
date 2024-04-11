@@ -34,16 +34,15 @@ The process of hitting the player involves an animation.
 Let’s go through how it is done.
 We have an animation called Attack01 which is an enemy hitting animation, and I declare a trigger type parameter called Attack. On the transition between idle and attack, I set the condition attack when it is triggered.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/9a28a11f-780f-40b4-a024-2fca239826cf)
-
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/fbac347f-1fe6-461f-bb0a-8eb3f519a483)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/507617e6-bc9e-411e-86de-e3567c973cc9)
 
 
 !Figure Enemy animation
 
 Now we need a script. When the enemy gets very close to the player, we want that animation to execute. The comments in the code explain this.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/52c1e529-6fba-4f20-a284-c89bfc59137f)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/889d25be-b798-496b-9df6-4f25e747833c)
+
 
 
 What we have achieved so far is that the enemy will find the path to get to the player and start hitting. The whole environment of the game is set up, such as the camera, the player, the enemy, and the logic of the fight.
@@ -52,18 +51,21 @@ What we have achieved so far is that the enemy will find the path to get to the 
 
 We implemented the health system on both objects, the enemy and the player. First, we created CharacterStats class and attached it to both the player and enemy objects.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/a5bc5185-e1c5-4e94-b71e-c63486a6ed92)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/2b730542-c4a0-4976-af99-06fc73f0b0a4)
+
 
 
 Now both player and enemy objects contain this character-stats Component.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/3a0afedb-1c3d-4a6c-8a7f-3ffd82c0052a)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/f830e2dc-8962-44dc-932f-234c1bdd5326)
+
 
 Now, what happens when the enemy object hits the player? This script is attached to the enemy object.
 
 We simply just call the stats of player and decrease its health.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/9ced3991-b1d3-452d-951e-a88e9f9877e2)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/c076a6b5-3e0f-4fc5-ab1d-f68d9186c3d3)
+
 
 
 The field has also heart 3D model, and the purpose of it is to increase the player’s health when ever the player collides with it.
@@ -73,7 +75,9 @@ The field has also heart 3D model, and the purpose of it is to increase the play
 
 The script is attached to the player ninja object. Here we say if the player collides with heart object which has a tag Health than we increase the health by 20 and then we destroy the heart object.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/14622d2c-162a-4d0e-b830-40459970eb80)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/8bbae462-6036-40d7-b7fa-d157b0ab9ca3)
+
+
 
 
 ## Sounds and Audio
@@ -82,7 +86,8 @@ First of all, I downloaded all the sounds from free sounds website. And then I u
 
 For example, I did compress all files, compress is to make balance in waves and cut the silence part.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/f16f688e-d7cd-4e9b-8904-a55cfc4161f2)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/e7e5c5ad-3261-40f1-84c0-68be608416e7)
+
 
 
 Well now!! But how are the audio clips are added to our game?
@@ -91,12 +96,14 @@ Have you every heard of objects pooling? If not don’t worry, we will go throug
 
 Unity document says that Object Pooling is a great way to optimize your projects and lower the burden that is placed on the CPU when having to rapidly create and destroy GameObjects.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/036b6acf-3535-4ee3-affa-4922c69910b3)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/a1f323a9-2901-4061-a276-a6c992974bb4)
+
 
 
 Let’s take first step how is it implemented?
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/88e0c2e0-969d-4b28-be92-e8079c4fef79)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/55fda6ac-6256-4b62-b673-000e48bbdc55)
+
 
 
 !Figure footstep event
@@ -105,7 +112,7 @@ Let’s take first step how is it implemented?
 
 When these events happen, a function is triggered, called MoveSound. LevelManager is a static class that contains the list of audio clips.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/69168cf3-c1e2-4e27-a3e9-7ebc22cf171b)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/e04488c9-1bf6-4de7-bbbb-6870f4a56ae2)
 
 
 In the MoveSound method, as the first parameter, we get the footsteps audio clip in position 0 and pass the player’s position as the second parameter. The idea is to play the clip at the player’s position.
@@ -122,7 +129,8 @@ In a few words:
 - Activate an object.
 - Play the clip.
 
-![image](https://github.com/hamoudi8080/GMD/assets/82207003/6c44a4df-22c2-4610-9183-3719b07b8eb0)
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/e585e514-fa42-40b7-8405-bbd9b4a36efc)
+
 
 
 At the end with object pooling we implement a nice system for clips.
