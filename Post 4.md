@@ -133,4 +133,4 @@ In a few words:
 
 
 
-At the end with object pooling we implement a nice system for clips.
+At the end with object pooling we implemented a nice system for clips.
