@@ -76,11 +76,6 @@
 
 ### Game Elements
 
-#### Worldbuilding:
-
-- Design a park environment with interactive elements and obstacles.
-- Create an immersive atmosphere with detailed textures and environmental effects.
-
 
 #### Characters:
 
