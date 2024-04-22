@@ -60,7 +60,7 @@
 #### Rules:
 
 - Player controls the ninja character using input controls.
-- Combat mechanics involve attacking and defending against enemies.
+- Combat mechanics involve attacking against enemies.
 - Health decreases when the player takes damage.
 - Health increases when the player collides with hearts.
 
