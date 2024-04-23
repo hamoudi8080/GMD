@@ -43,7 +43,7 @@
 - Navigate through the city environment.
 - Engage in combat with enemies encountered along the way.
 - Earn points for each successful kill.
-- Add Audio clips.
+
 #### Game Progression:
 
 - Progress through levels by defeating enemies and advancing through the park.
