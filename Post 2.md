@@ -67,7 +67,7 @@
 
 #### Combat:
 
-- Implement melee combat mechanics for close-quarters engagements.
+- Implement combat mechanics for close-quarters engagements.
 - Provide variety in enemy attacks and behavior.
 
 #### Physics:
