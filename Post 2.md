@@ -54,6 +54,7 @@
 - Health bar indicating player's health.
 - Score display showing accumulated points.
 - Blood level indicator for enemies during combat.
+- Main Menu across the game
 
 ### Mechanics
 
