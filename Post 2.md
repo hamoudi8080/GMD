@@ -80,8 +80,8 @@
 
 #### Characters:
 
-- Main character: Ninja protagonist with unique abilities and fighting style
-- Enemies: Various adversaries with distinct characteristics and combat techniques
+- Main character: Ninja protagonist with abilities for fighting.
+- Enemies: AI enemies.
 
 ### Assets
 
