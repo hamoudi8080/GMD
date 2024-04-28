@@ -20,8 +20,11 @@ Let's dive into the details:
 
 ## 1. Introducing a Scoring System with GUI
 
-- We'll implement a scoring system that keeps track of points earned during gameplay.
+- We'll implement a scoring system that keeps track of numbers of enemies have been killed during each level of the game gameplay very simple.
 - The graphical user interface (GUI) will prominently display the player's score.
+
+![image](https://github.com/hamoudi8080/GMD/assets/82207003/0e26f810-bb52-407a-93f7-361b55673266)
+
 
 ## 2. Particle System
 
