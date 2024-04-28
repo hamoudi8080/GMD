@@ -15,12 +15,15 @@ public class CharacterMovement : MonoBehaviour
     public float jumpValue = 10;
     private Animator anim;
 
+    CharacterStats stats;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
         anim = GetComponentInChildren<Animator>();
         cam = Camera.main.transform;
+        stats = GetComponent<CharacterStats>();
     }
 
     // Update is called once per frame
@@ -34,23 +37,19 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             anim.SetTrigger("Attack");
+            LevelManager.instance.PlaySound(LevelManager.instance.levelSounds[4], LevelManager.instance.player.position);
         }
-
-
         Vector3 moveDirection = new Vector3(horizontal, 0, vertical);
         anim.SetFloat("Speed", Mathf.Clamp(moveDirection.magnitude, 0, 0.5f) + (isSprint ? 0.5f : 0f));
-
-
         // Apply gravity continuously
         if (controller.isGrounded)
         {
             verticalVelocity = -gravity * Time.deltaTime; // Keep the character grounded
 
-
-
             if (Input.GetAxis("Jump") > 0)
             {
                 verticalVelocity = jumpValue;
+                LevelManager.instance.PlaySound(LevelManager.instance.levelSounds[3], LevelManager.instance.player.position);
             }
         }
         else
@@ -70,4 +69,6 @@ public class CharacterMovement : MonoBehaviour
         moveDirection = new Vector3(moveDirection.x * speed * sprint, verticalVelocity, moveDirection.z * speed * sprint);
         controller.Move(moveDirection * Time.deltaTime);
     }
+
+  
 }

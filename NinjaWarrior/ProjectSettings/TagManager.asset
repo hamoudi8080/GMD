@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Item
+  - Health
+  - SecondLevel
+  - HealthBar
+  - canvaswelcome
   layers:
   - Default
   - TransparentFX

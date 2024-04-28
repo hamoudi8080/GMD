@@ -6,6 +6,7 @@ public class CharacterCollider : MonoBehaviour
 {
     public void DoAttack()
     {
+        Debug.Log("attacking");
         transform.Find("Collider").GetComponent<BoxCollider>().enabled = true;
         StartCoroutine(HideCollider());
     }
