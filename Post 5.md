@@ -4,11 +4,15 @@ In the fifth milestone of our game development project, we will focus on several
 
 Let's dive into the details:
 
-•	Introduce scoring system with graphical user interface (GUI).
-•	Particle system 
-•	Score points for each enemy kill.
-•	Display health indicator to show remaining health during combat.
-•	Menu UI.
+*	Introduce scoring system with graphical user interface (GUI).
+
+*	Particle system 
+
+*	Score points for each enemy kill.
+
+*	Display health indicator to show remaining health during combat.
+
+*	Menu UI.
 
 * New city Environment
 
