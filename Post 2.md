@@ -100,6 +100,6 @@
 
 ### Final Submission
 
-- Complete all planned milestones and deliverables by May 1
+- Complete all planned milestones and deliverables by May 9
 - Ensure all game mechanics are implemented and polished
-- Test the game for bugs and issues.
+
