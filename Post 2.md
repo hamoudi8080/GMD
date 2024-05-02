@@ -33,7 +33,7 @@
 - Score points for each enemy kill.
 - Display health indicator to show remaining health during combat.
 
-### Final Submission: May 7
+### Final Submission: May 9
 
 ### Gameplay
 
