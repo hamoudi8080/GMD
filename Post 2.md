@@ -46,8 +46,8 @@
 
 #### Game Progression:
 
-- Progress through levels by defeating enemies and advancing through the park.
-- Difficulty increases as players encounter stronger enemies.
+- Progress through levels by defeating enemies and advancing through the park and then go to next level to defeat enemies in the city.
+- Difficulty increases as players encounter stronger enemies in second level.
 
 #### In-Game GUI:
 
