@@ -90,12 +90,6 @@
 - Compose a soundtrack to enhance mood and atmosphere.
 - Provide dynamic music cues for different gameplay situations.
 
-### Improvments
-
-#### Environment.
-#### updating code. 
-#### new enemy animation. 
-#### more enemy across Environment.
 
 
 ### Final Submission
