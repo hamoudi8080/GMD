@@ -13,21 +13,21 @@
 #### Game implementation
 - The game will be developed by using unity and writing scripts by using visual studio 2022.
 
-#### Milestone 1 (March/18):
+#### Start Milestone 1 (March/18):
 
 - Downloading assets and 3D models for environment and characters
 - Implement basic character movement and animations.
 - Setup environment including park layout and camera configurations.
 - Install necessary packages such as input manager for player control.
 
-#### Milestone 2 (April/1):
+#### Start Milestone 2 (April/1):
 
 - Develop combat system for the main character.
 - Implement enemy AI for engaging encounters.
 - Implement the health system.
 - Audio clips.
 
-#### Milestone 3 (April/15):
+#### Start Milestone 3 (April/15):
 
 - Introduce scoring system with graphical user interface (GUI)
 - Score points for each enemy kill.
