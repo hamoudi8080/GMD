@@ -58,6 +58,23 @@
 
 ### Mechanics
 
+It is worth mentioning that the rules, mechanisms, and some features such character moving across enviroment and AI enemies of the game will be inspired by this tutorial.
+But most of animations will be made by myslef.
+
+What Will do?
+-new level,
+-updated version of all codes and ensure to follow Solid design pattern for game performance and optimization.
+-new animations on player and enemies.
+-new enviroment in the second level.
+-new gui and interface all the way across the game.
+-new audio clips.
+-new 3D models
+-new health indicator on top of player and enemies head.
+
+
+
+https://www.youtube.com/watch?v=IIQAQFYV8Oc&list=PLltZRmsFXWnKk5F3_ltKWKq6lZLveotIF&ab_channel=6wrni
+
 #### Rules:
 
 - Player controls the ninja character using input controls.
