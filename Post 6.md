@@ -33,7 +33,11 @@ The game followed a solid design pattern for optimization and performance. Each 
 
 The scene with folder is also a kind of good-structured.
 
-It is worth mentioning that the rules, mechanisms, and some features of the game were inspired by a tutorial. However, many elements were customized and added, such as code, environments, animations, audio clips, and GUI menus, game is also following the SOLID Design pattern.
+It is worth mentioning that the rules, mechanisms, and some features of the game were inspired by this tutorial.
+
+https://www.youtube.com/watch?v=IIQAQFYV8Oc&list=PLltZRmsFXWnKk5F3_ltKWKq6lZLveotIF&ab_channel=6wrni
+
+However, many elements were customized and added, such as code, environments, animations, audio clips, and GUI menus, game is also following the SOLID Design pattern.
 
 ## Final Thoughts
 
