@@ -5,6 +5,9 @@ You can play the game here.
 
 https://hamoudiresho.itch.io/fightinpark
 
+## Game video
+https://www.youtube.com/watch?v=x2yKmaCmaCk&ab_channel=HamoudiAli
+
 ## Blog Posts
 The blog posts related to this project can be found here.
 
