@@ -1,35 +1,29 @@
+# Game Project
 
-##the link to play the game. 
+## Game Link
+You can play the game here.
 
-https://hamoudiresho.itch.io/fightinpark
+## Blog Posts
+The blog posts related to this project can be found here.
 
-##the link of blog posts
+## Third Party Assets
+Here are the links to the third-party assets used in the project:
 
-https://github.com/hamoudi8080/GMD/tree/main/Blog%20Posts
+### City
+- City Package
 
-##third party assets links.
+### GUI
+- GUI Parts
 
-city
-https://assetstore.unity.com/packages/3d/environments/urban/city-package-107224
+### Health Indicator
+- Health System
 
-Gui
-https://assetstore.unity.com/packages/2d/gui/icons/gui-parts-159068
+### Main Character
+- Ninja RPG Hero
 
-Health indicatot
-https://assetstore.unity.com/packages/tools/utilities/health-system-includes-learning-video-211787
+### Village
+- RPG Poly Pack Lite
 
-Ninja main character
-https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/rpg-hero-pbr-hp-polyart-121480
-
-village 
-https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410
-
-enemies
-https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/skeleton-outlaw-130946
-
-https://assetstore.unity.com/packages/p/toon-rts-units-undead-demo-95640
-
-
-
-
-
+### Enemies
+- Skeleton Outlaw
+- Toon RTS Units Undead Demo
