@@ -16,6 +16,8 @@ https://github.com/hamoudi8080/GMD/tree/main/Blog%20Posts
 ## Third Party Assets
 Here are the links to the third-party assets used in the project:
 
+before running the project in unity, make sure the following assets are downloaded. 
+
 ### City
 - City Package
 
